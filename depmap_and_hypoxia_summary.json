@@ -1,0 +1,367 @@
+{
+  "solid_codependency": {
+    "n_solid_complete": 1038,
+    "slc1a5_vs_slc7a1_r": 0.20737865857470597,
+    "slc1a5_vs_slc7a1_rho": 0.14852430078258666,
+    "slc1a5_vs_slc7a1_p": 1.5119171777896618e-11,
+    "paralog_controls": {
+      "SLC7A1_vs_SLC7A5": {
+        "pancancer_n": 1186,
+        "pancancer_r": 0.4023777995897455,
+        "pancancer_p": 2.2252528327367734e-47,
+        "solid_n": 1038,
+        "solid_r": 0.38815042093511015,
+        "solid_p": 1.1665050844488158e-38
+      },
+      "SLC7A1_vs_SLC7A2": {
+        "pancancer_n": 1186,
+        "pancancer_r": 0.011021927629451913,
+        "pancancer_p": 0.7045480596534159,
+        "solid_n": 1038,
+        "solid_r": 0.02918514546648035,
+        "solid_p": 0.34754883290823935
+      },
+      "SLC1A5_vs_SLC1A4": {
+        "pancancer_n": 1186,
+        "pancancer_r": -0.015534099247483057,
+        "pancancer_p": 0.5930393000861062,
+        "solid_n": 1038,
+        "solid_r": -0.018692541869941875,
+        "solid_p": 0.547464816977067
+      }
+    }
+  },
+  "smarca4_continuous_coessentiality": {
+    "n_genes_tested": 18434,
+    "n_fdr05_pearson": 779,
+    "key_genes": {
+      "SMARCB1": {
+        "n": 1038,
+        "pearson_r": 0.2951508907188745,
+        "pearson_p": 2.603703113073568e-22,
+        "pearson_fdr_q": 2.3998331593199075e-18,
+        "spearman_rho": 0.3037696899154393,
+        "spearman_p": 1.3417140849382207e-23,
+        "spearman_fdr_q": 2.473315744175116e-19
+      },
+      "SMARCC1": {
+        "n": 1038,
+        "pearson_r": 0.3018409885885752,
+        "pearson_p": 2.6282381070826395e-23,
+        "pearson_fdr_q": 4.844894126596138e-19,
+        "spearman_rho": 0.29233717386302305,
+        "spearman_p": 6.70893124982156e-22,
+        "spearman_fdr_q": 6.183621932960532e-18
+      },
+      "SMARCD1": {
+        "n": 1038,
+        "pearson_r": 0.2816441877859672,
+        "pearson_p": 2.224311578391608e-20,
+        "pearson_fdr_q": 1.3667653212023636e-16,
+        "spearman_rho": 0.27216987979123497,
+        "spearman_p": 4.366696911740663e-19,
+        "spearman_fdr_q": 2.6831896957009133e-15
+      },
+      "ARID1A": {
+        "n": 1038,
+        "pearson_r": 0.22565073352745,
+        "pearson_p": 1.8902421782160765e-13,
+        "pearson_fdr_q": 8.711181078308788e-10,
+        "spearman_rho": 0.2406297699940288,
+        "spearman_p": 3.871263780191152e-15,
+        "spearman_fdr_q": 1.7840719131010922e-11
+      },
+      "SMARCE1": {
+        "n": 1038,
+        "pearson_r": 0.20997092624818814,
+        "pearson_p": 8.315405670407416e-12,
+        "pearson_fdr_q": 2.189802687547004e-08,
+        "spearman_rho": 0.21542213310974392,
+        "spearman_p": 2.3056310788245717e-12,
+        "spearman_fdr_q": 8.500400661410432e-09
+      },
+      "MLLT1": {
+        "n": 1038,
+        "pearson_r": 0.17106840148385832,
+        "pearson_p": 2.9266207975112818e-08,
+        "pearson_fdr_q": 2.237391864539063e-05,
+        "spearman_rho": 0.17103512239229599,
+        "spearman_p": 2.9449946041294932e-08,
+        "spearman_fdr_q": 2.262001272188462e-05
+      },
+      "SMARCA2": {
+        "n": 1038,
+        "pearson_r": -0.1966750584640155,
+        "pearson_p": 1.6440923811290311e-10,
+        "pearson_fdr_q": 2.5255999128110467e-07,
+        "spearman_rho": -0.1605498822868674,
+        "spearman_p": 1.991459919205324e-07,
+        "spearman_fdr_q": 0.00011006948599541808
+      }
+    }
+  },
+  "diploid_sparing_and_mki67": {
+    "n_diploid_crispr": 16,
+    "n_solid_crispr": 1038,
+    "diploid_mean_smarca4": -0.08658946657369318,
+    "diploid_median_smarca4": -0.09790705964822766,
+    "solid_mean_smarca4": -0.34655149740966934,
+    "solid_median_smarca4": -0.3026942770077296,
+    "delta_mean": 0.25996203083597613,
+    "delta_median": 0.20478721735950195,
+    "mwu_p": 0.0067306718958867985,
+    "doubling_time_columns_in_model_csv": [],
+    "mki67_matched_n_diploid": 14,
+    "mki67_matched_n_solid": 974,
+    "ols_unadj_beta_diploid": 0.25048083444226166,
+    "ols_unadj_p_diploid": 0.005897980952231732,
+    "ols_mki67_beta_diploid": 0.2502448607230779,
+    "ols_mki67_p_diploid": 0.005971765011446066,
+    "ols_mki67_beta_mki67": -0.0023548186176811604,
+    "ols_mki67_p_mki67": 0.8148337299677945
+  },
+  "fig1d_lineage_matched_expression": {
+    "tcga_3cohort_n": 1384,
+    "tcga_3cohort_raw_r": 0.3650726513474828,
+    "tcga_3cohort_within_z_r": 0.2843616235778345,
+    "tcga_3cohort_within_z_p": 3.719383991776047e-27,
+    "tcga_per_cohort": {
+      "TCGA-BRCA": {
+        "n": 1050,
+        "pct": 75.86705202312139,
+        "r": 0.3268940754536146,
+        "p": 1.4314096984982809e-27
+      },
+      "TCGA-GBM": {
+        "n": 158,
+        "pct": 11.416184971098266,
+        "r": 0.20662935128865387,
+        "p": 0.00919170307042253
+      },
+      "TCGA-PAAD": {
+        "n": 176,
+        "pct": 12.716763005780345,
+        "r": 0.09914690775902389,
+        "p": 0.19047067373506313
+      }
+    },
+    "depmap_pansolid_mismatched_n": 1349,
+    "depmap_pansolid_mismatched_n_lineages": 26,
+    "depmap_pansolid_within_z_r": 0.02492085725741302,
+    "depmap_pansolid_within_z_p": 0.3603989760609769,
+    "fisher_z_mismatched": 6.983811745280123,
+    "fisher_p_mismatched": 2.8727695674085708e-12,
+    "depmap_matched_3lin_all_unique_n": 229,
+    "depmap_matched_3lin_all_unique_within_z_r": 0.2154471277786305,
+    "depmap_matched_3lin_all_unique_within_z_p": 0.0010340927624843293,
+    "depmap_matched_3lin_all_unique_raw_r": 0.25038405681403225,
+    "fisher_z_matched_all_unique": 1.0249263496495493,
+    "fisher_p_matched_all_unique": 0.3053979405582953,
+    "depmap_matched_3lin_solid_n": 221,
+    "depmap_matched_3lin_solid_within_z_r": 0.17356116300571298,
+    "depmap_matched_3lin_solid_within_z_p": 0.009732524130707226,
+    "fisher_z_matched_solid": 1.6065782989314272,
+    "fisher_p_matched_solid": 0.10814690613527915,
+    "depmap_per_lineage": {
+      "Breast": {
+        "n_unique": 71,
+        "r": 0.38994375368206874,
+        "p": 0.0007751204334547737
+      },
+      "CNS/Brain": {
+        "n_unique": 103,
+        "r": 0.06917774615712949,
+        "p": 0.4874680112652163
+      },
+      "Pancreas": {
+        "n_unique": 55,
+        "r": 0.2655344076333049,
+        "p": 0.05007120216301774
+      }
+    },
+    "brca_only_fisher_z": -0.5784297791118392,
+    "brca_only_fisher_p": 0.5629739936720877
+  },
+  "vhl_lof_biology": {
+    "n_vhl_lof": 19,
+    "n_wt_solid": 1019,
+    "n_kid_wt": 15,
+    "vhl_hif1a_vs_slc7a1_r": 0.5411520702276389,
+    "vhl_hif1a_vs_slc7a1_rho": 0.543859649122807,
+    "vhl_hif1a_vs_slc7a1_p": 0.016725458368473983,
+    "vhl_epas1_vs_slc7a1_r": -0.08772587282790477,
+    "vhl_epas1_vs_slc7a1_p": 0.7210035401218977,
+    "wt_hif1a_vs_slc7a1_r": -0.03361199434261458,
+    "wt_hif1a_vs_slc7a1_p": 0.28374670188329126,
+    "kid_wt_epas1_mean": 0.04512712959982109,
+    "vhl_vs_kid_wt_epas1_welch_p": 0.0006744280457144849,
+    "genes": {
+      "HIF1A": {
+        "vhl_n": 19,
+        "vhl_mean": 0.3689981721684904,
+        "vhl_sd": 0.2683190169617092,
+        "vhl_median": 0.3332094361386392,
+        "wt_n": 1019,
+        "wt_mean": 0.11267728956141898,
+        "wt_sd": 0.14788157895571566,
+        "wt_median": 0.1043890018184801,
+        "cohens_d": 1.6997690504333354,
+        "welch_p": 0.000585941221800438
+      },
+      "EPAS1": {
+        "vhl_n": 19,
+        "vhl_mean": -0.3463593579642777,
+        "vhl_sd": 0.3966364114054729,
+        "vhl_median": -0.2886114458755882,
+        "wt_n": 1019,
+        "wt_mean": 0.004509809745450778,
+        "wt_sd": 0.12304034705851874,
+        "wt_median": 0.0063227358625961,
+        "cohens_d": -2.6440802144261375,
+        "welch_p": 0.001160145642792433
+      },
+      "SLC7A1": {
+        "vhl_n": 19,
+        "vhl_mean": -0.3223612106874751,
+        "vhl_sd": 0.3095736060276868,
+        "vhl_median": -0.2427225140184135,
+        "wt_n": 1019,
+        "wt_mean": -0.2288239941356961,
+        "wt_sd": 0.2915409012710805,
+        "wt_median": -0.138250206718637,
+        "cohens_d": -0.32048250470360945,
+        "welch_p": 0.2073814510826911
+      },
+      "SLC1A5": {
+        "vhl_n": 19,
+        "vhl_mean": -0.3048647380820201,
+        "vhl_sd": 0.2260118869197978,
+        "vhl_median": -0.2690729711832713,
+        "wt_n": 1019,
+        "wt_mean": -0.19434857566141586,
+        "wt_sd": 0.18135928824605443,
+        "wt_median": -0.163846967224607,
+        "cohens_d": -0.606470142544704,
+        "welch_p": 0.04793682036479833
+      },
+      "SMARCA4": {
+        "vhl_n": 19,
+        "vhl_mean": -0.17823565237758884,
+        "vhl_sd": 0.21177279683722292,
+        "vhl_median": -0.0935447270783971,
+        "wt_n": 1019,
+        "wt_mean": -0.34968986939750996,
+        "wt_sd": 0.34087679040255786,
+        "wt_median": -0.3059405112590383,
+        "cohens_d": 0.5056847335048175,
+        "welch_p": 0.002582367548199156
+      }
+    }
+  },
+  "geo_hypoxia_pooled": {
+    "GSE139673::1% O2 vs 21% O2 (siControl)": {
+      "CA9": {
+        "log2fc": 3.0785,
+        "p": 0.0005083
+      },
+      "VEGFA": {
+        "log2fc": 1.0786,
+        "p": 0.009322
+      },
+      "HIF1A": {
+        "log2fc": 0.013,
+        "p": 0.6983
+      },
+      "SLC7A1": {
+        "log2fc": -0.4576,
+        "p": 0.001297
+      },
+      "SLC1A5": {
+        "log2fc": 0.0378,
+        "p": 0.7359
+      },
+      "SMARCA4": {
+        "log2fc": -0.235,
+        "p": 0.0534
+      }
+    },
+    "GSE283995::1% O2 (24h) vs 21% O2": {
+      "CA9": {
+        "log2fc": 3.267,
+        "p": 4.109e-11
+      },
+      "VEGFA": {
+        "log2fc": 0.9681,
+        "p": 8.54e-09
+      },
+      "HIF1A": {
+        "log2fc": -0.0831,
+        "p": 0.2662
+      },
+      "SLC7A1": {
+        "log2fc": 0.299,
+        "p": 4.784e-05
+      },
+      "SLC1A5": {
+        "log2fc": 0.1284,
+        "p": 0.008337
+      },
+      "SMARCA4": {
+        "log2fc": 0.0667,
+        "p": 0.2137
+      }
+    },
+    "GSE283995::1% O2 (6d) vs 21% O2": {
+      "CA9": {
+        "log2fc": 3.376,
+        "p": 4.99e-06
+      },
+      "VEGFA": {
+        "log2fc": 0.7751,
+        "p": 3.747e-05
+      },
+      "HIF1A": {
+        "log2fc": -0.2288,
+        "p": 0.01841
+      },
+      "SLC7A1": {
+        "log2fc": -0.1999,
+        "p": 0.121
+      },
+      "SLC1A5": {
+        "log2fc": 0.1067,
+        "p": 0.382
+      },
+      "SMARCA4": {
+        "log2fc": 0.3563,
+        "p": 0.01119
+      }
+    },
+    "GSE300765::1% O2 (48h) vs 21% O2": {
+      "CA9": {
+        "log2fc": 4.0945,
+        "p": 0.0009539
+      },
+      "VEGFA": {
+        "log2fc": 1.8128,
+        "p": 0.0006948
+      },
+      "HIF1A": {
+        "log2fc": 0.1074,
+        "p": 0.5728
+      },
+      "SLC7A1": {
+        "log2fc": -0.0531,
+        "p": 0.5165
+      },
+      "SLC1A5": {
+        "log2fc": -0.0458,
+        "p": 0.7344
+      },
+      "SMARCA4": {
+        "log2fc": -0.3756,
+        "p": 0.01543
+      }
+    }
+  }
+}

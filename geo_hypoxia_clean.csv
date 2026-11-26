@@ -1,0 +1,43 @@
+GEO_Accession,Cell_Line,Cancer_Type,Platform,Comparison,N_Normoxia,N_Hypoxia,Paired,Test,Gene,Mean_Normoxia_Log2,Mean_Hypoxia_Log2,Log2FC,T_Statistic,P_Value,Descriptive_Only
+GSE283995,HepG2,Hepatocellular Carcinoma,RNA-seq (log2 norm. counts),1% O2 (24h) vs 21% O2,6,6,False,Welch two-sample t-test,SLC7A1,8.382,8.681,0.299,6.9461,4.784e-05,False
+GSE283995,HepG2,Hepatocellular Carcinoma,RNA-seq (log2 norm. counts),1% O2 (24h) vs 21% O2,6,6,False,Welch two-sample t-test,SLC1A5,9.8459,9.9743,0.1284,3.4262,0.008337,False
+GSE283995,HepG2,Hepatocellular Carcinoma,RNA-seq (log2 norm. counts),1% O2 (24h) vs 21% O2,6,6,False,Welch two-sample t-test,HIF1A,8.6016,8.5185,-0.0831,-1.194,0.2662,False
+GSE283995,HepG2,Hepatocellular Carcinoma,RNA-seq (log2 norm. counts),1% O2 (24h) vs 21% O2,6,6,False,Welch two-sample t-test,SMARCA4,9.1823,9.249,0.0667,1.3293,0.2137,False
+GSE283995,HepG2,Hepatocellular Carcinoma,RNA-seq (log2 norm. counts),1% O2 (24h) vs 21% O2,6,6,False,Welch two-sample t-test,CA9,6.5282,9.7952,3.267,35.3416,4.109e-11,False
+GSE283995,HepG2,Hepatocellular Carcinoma,RNA-seq (log2 norm. counts),1% O2 (24h) vs 21% O2,6,6,False,Welch two-sample t-test,VEGFA,8.1021,9.0703,0.9681,22.1606,8.54e-09,False
+GSE283995,HepG2,Hepatocellular Carcinoma,RNA-seq (log2 norm. counts),1% O2 (6d) vs 21% O2,6,5,False,Welch two-sample t-test,SLC7A1,8.382,8.1821,-0.1999,-1.8763,0.121,False
+GSE283995,HepG2,Hepatocellular Carcinoma,RNA-seq (log2 norm. counts),1% O2 (6d) vs 21% O2,6,5,False,Welch two-sample t-test,SLC1A5,9.8459,9.9526,0.1067,0.9738,0.382,False
+GSE283995,HepG2,Hepatocellular Carcinoma,RNA-seq (log2 norm. counts),1% O2 (6d) vs 21% O2,6,5,False,Welch two-sample t-test,HIF1A,8.6016,8.3728,-0.2288,-2.8726,0.01841,False
+GSE283995,HepG2,Hepatocellular Carcinoma,RNA-seq (log2 norm. counts),1% O2 (6d) vs 21% O2,6,5,False,Welch two-sample t-test,SMARCA4,9.1823,9.5386,0.3563,3.8501,0.01119,False
+GSE283995,HepG2,Hepatocellular Carcinoma,RNA-seq (log2 norm. counts),1% O2 (6d) vs 21% O2,6,5,False,Welch two-sample t-test,CA9,6.5282,9.9042,3.376,17.7606,4.99e-06,False
+GSE283995,HepG2,Hepatocellular Carcinoma,RNA-seq (log2 norm. counts),1% O2 (6d) vs 21% O2,6,5,False,Welch two-sample t-test,VEGFA,8.1021,8.8772,0.7751,10.1529,3.747e-05,False
+GSE139673,AsPC-1,Pancreatic Ductal Adenocarcinoma,RNA-seq (log2 CPM+1),1% O2 vs 21% O2 (siControl),3,3,True,Paired two-sided t-test,SLC7A1,6.486,6.0284,-0.4576,-27.742,0.001297,False
+GSE139673,AsPC-1,Pancreatic Ductal Adenocarcinoma,RNA-seq (log2 CPM+1),1% O2 vs 21% O2 (siControl),3,3,True,Paired two-sided t-test,SLC1A5,5.7875,5.8253,0.0378,0.3873,0.7359,False
+GSE139673,AsPC-1,Pancreatic Ductal Adenocarcinoma,RNA-seq (log2 CPM+1),1% O2 vs 21% O2 (siControl),3,3,True,Paired two-sided t-test,HIF1A,6.2776,6.2906,0.013,0.4475,0.6983,False
+GSE139673,AsPC-1,Pancreatic Ductal Adenocarcinoma,RNA-seq (log2 CPM+1),1% O2 vs 21% O2 (siControl),3,3,True,Paired two-sided t-test,SMARCA4,4.8832,4.6482,-0.235,-4.1521,0.0534,False
+GSE139673,AsPC-1,Pancreatic Ductal Adenocarcinoma,RNA-seq (log2 CPM+1),1% O2 vs 21% O2 (siControl),3,3,True,Paired two-sided t-test,CA9,3.333,6.4115,3.0785,44.3385,0.0005083,False
+GSE139673,AsPC-1,Pancreatic Ductal Adenocarcinoma,RNA-seq (log2 CPM+1),1% O2 vs 21% O2 (siControl),3,3,True,Paired two-sided t-test,VEGFA,4.6692,5.7478,1.0786,10.2849,0.009322,False
+GSE145108,RKO (GSE145108 stratified),Colorectal Carcinoma,RNA-seq (log2 RPKM+1),1% O2 (24h) vs 21% O2 (RKO),2,2,True,Descriptive Log2FC only (n=2 pairs; t-test omitted as underpowered),SLC7A1,5.3369,5.0827,-0.2542,,,True
+GSE145108,RKO (GSE145108 stratified),Colorectal Carcinoma,RNA-seq (log2 RPKM+1),1% O2 (24h) vs 21% O2 (RKO),2,2,True,Descriptive Log2FC only (n=2 pairs; t-test omitted as underpowered),SLC1A5,6.5414,6.0011,-0.5402,,,True
+GSE145108,RKO (GSE145108 stratified),Colorectal Carcinoma,RNA-seq (log2 RPKM+1),1% O2 (24h) vs 21% O2 (RKO),2,2,True,Descriptive Log2FC only (n=2 pairs; t-test omitted as underpowered),HIF1A,5.244,3.6548,-1.5893,,,True
+GSE145108,RKO (GSE145108 stratified),Colorectal Carcinoma,RNA-seq (log2 RPKM+1),1% O2 (24h) vs 21% O2 (RKO),2,2,True,Descriptive Log2FC only (n=2 pairs; t-test omitted as underpowered),SMARCA4,5.5484,5.1815,-0.3668,,,True
+GSE145108,RKO (GSE145108 stratified),Colorectal Carcinoma,RNA-seq (log2 RPKM+1),1% O2 (24h) vs 21% O2 (RKO),2,2,True,Descriptive Log2FC only (n=2 pairs; t-test omitted as underpowered),CA9,1.5028,5.4799,3.977,,,True
+GSE145108,RKO (GSE145108 stratified),Colorectal Carcinoma,RNA-seq (log2 RPKM+1),1% O2 (24h) vs 21% O2 (RKO),2,2,True,Descriptive Log2FC only (n=2 pairs; t-test omitted as underpowered),VEGFA,4.1226,5.3373,1.2147,,,True
+GSE145108,A549 (GSE145108 stratified),Non-Small Cell Lung,RNA-seq (log2 RPKM+1),1% O2 (24h) vs 21% O2 (A549),2,2,True,Descriptive Log2FC only (n=2 pairs; t-test omitted as underpowered),SLC7A1,4.6151,3.8992,-0.716,,,True
+GSE145108,A549 (GSE145108 stratified),Non-Small Cell Lung,RNA-seq (log2 RPKM+1),1% O2 (24h) vs 21% O2 (A549),2,2,True,Descriptive Log2FC only (n=2 pairs; t-test omitted as underpowered),SLC1A5,6.7144,5.7684,-0.946,,,True
+GSE145108,A549 (GSE145108 stratified),Non-Small Cell Lung,RNA-seq (log2 RPKM+1),1% O2 (24h) vs 21% O2 (A549),2,2,True,Descriptive Log2FC only (n=2 pairs; t-test omitted as underpowered),HIF1A,6.9472,5.695,-1.2522,,,True
+GSE145108,A549 (GSE145108 stratified),Non-Small Cell Lung,RNA-seq (log2 RPKM+1),1% O2 (24h) vs 21% O2 (A549),2,2,True,Descriptive Log2FC only (n=2 pairs; t-test omitted as underpowered),SMARCA4,2.6695,2.235,-0.4345,,,True
+GSE145108,A549 (GSE145108 stratified),Non-Small Cell Lung,RNA-seq (log2 RPKM+1),1% O2 (24h) vs 21% O2 (A549),2,2,True,Descriptive Log2FC only (n=2 pairs; t-test omitted as underpowered),CA9,1.8663,7.0581,5.1918,,,True
+GSE145108,A549 (GSE145108 stratified),Non-Small Cell Lung,RNA-seq (log2 RPKM+1),1% O2 (24h) vs 21% O2 (A549),2,2,True,Descriptive Log2FC only (n=2 pairs; t-test omitted as underpowered),VEGFA,4.9427,6.3659,1.4232,,,True
+GSE145108,H460 (GSE145108 stratified),Non-Small Cell Lung,RNA-seq (log2 RPKM+1),1% O2 (24h) vs 21% O2 (H460),2,2,True,Descriptive Log2FC only (n=2 pairs; t-test omitted as underpowered),SLC7A1,5.2468,3.8799,-1.367,,,True
+GSE145108,H460 (GSE145108 stratified),Non-Small Cell Lung,RNA-seq (log2 RPKM+1),1% O2 (24h) vs 21% O2 (H460),2,2,True,Descriptive Log2FC only (n=2 pairs; t-test omitted as underpowered),SLC1A5,7.0668,5.7685,-1.2983,,,True
+GSE145108,H460 (GSE145108 stratified),Non-Small Cell Lung,RNA-seq (log2 RPKM+1),1% O2 (24h) vs 21% O2 (H460),2,2,True,Descriptive Log2FC only (n=2 pairs; t-test omitted as underpowered),HIF1A,6.2882,5.7968,-0.4913,,,True
+GSE145108,H460 (GSE145108 stratified),Non-Small Cell Lung,RNA-seq (log2 RPKM+1),1% O2 (24h) vs 21% O2 (H460),2,2,True,Descriptive Log2FC only (n=2 pairs; t-test omitted as underpowered),SMARCA4,4.4734,3.5846,-0.8888,,,True
+GSE145108,H460 (GSE145108 stratified),Non-Small Cell Lung,RNA-seq (log2 RPKM+1),1% O2 (24h) vs 21% O2 (H460),2,2,True,Descriptive Log2FC only (n=2 pairs; t-test omitted as underpowered),CA9,1.2565,7.033,5.7765,,,True
+GSE145108,H460 (GSE145108 stratified),Non-Small Cell Lung,RNA-seq (log2 RPKM+1),1% O2 (24h) vs 21% O2 (H460),2,2,True,Descriptive Log2FC only (n=2 pairs; t-test omitted as underpowered),VEGFA,5.4786,6.5944,1.1157,,,True
+GSE300765,U87MG,Glioblastoma,"Illumina HumanHT-12 v4 (GPL10558, log2)",1% O2 (48h) vs 21% O2,3,3,True,Paired two-sided t-test,SLC7A1,10.2637,10.2106,-0.0531,-0.7812,0.5165,False
+GSE300765,U87MG,Glioblastoma,"Illumina HumanHT-12 v4 (GPL10558, log2)",1% O2 (48h) vs 21% O2,3,3,True,Paired two-sided t-test,SLC1A5,10.2553,10.2095,-0.0458,-0.3895,0.7344,False
+GSE300765,U87MG,Glioblastoma,"Illumina HumanHT-12 v4 (GPL10558, log2)",1% O2 (48h) vs 21% O2,3,3,True,Paired two-sided t-test,HIF1A,9.3894,9.4968,0.1074,0.6682,0.5728,False
+GSE300765,U87MG,Glioblastoma,"Illumina HumanHT-12 v4 (GPL10558, log2)",1% O2 (48h) vs 21% O2,3,3,True,Paired two-sided t-test,SMARCA4,10.4458,10.0701,-0.3756,-7.9565,0.01543,False
+GSE300765,U87MG,Glioblastoma,"Illumina HumanHT-12 v4 (GPL10558, log2)",1% O2 (48h) vs 21% O2,3,3,True,Paired two-sided t-test,CA9,7.4659,11.5604,4.0945,32.3543,0.0009539,False
+GSE300765,U87MG,Glioblastoma,"Illumina HumanHT-12 v4 (GPL10558, log2)",1% O2 (48h) vs 21% O2,3,3,True,Paired two-sided t-test,VEGFA,6.4789,8.2917,1.8128,37.9175,0.0006948,False
